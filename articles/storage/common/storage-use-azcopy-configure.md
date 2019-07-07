@@ -78,7 +78,7 @@ By default, the log and plan files are located in the `%USERPROFILE\\.azcopy` di
 
 The following command will get all errors with `UPLOADFAILED` status from the `04dc9ca9-158f-7945-5933-564021086c79` log:
 
-**Windows**
+**Windows (PowerShell)**
 
 ```
 Select-String UPLOADFAILED .\04dc9ca9-158f-7945-5933-564021086c79.log
